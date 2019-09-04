@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const Header = () => (
   <header>
-    <div className="f1">
+    <div className="fl">
       <button type="button">
         <img src="/images/app/user.png" alt="User Settings"></img>
       </button>
@@ -13,7 +13,7 @@ const Header = () => (
       <Logo />
     </div>
 
-    <div className="f1">
+    <div className="fl">
       <button type="button">
         <img src="/images/app/messages.png" alt="View Messages"></img>
       </button>

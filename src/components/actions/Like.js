@@ -5,7 +5,7 @@ const Like = ({ userId, modifyChoices }) => (
     type="button"
     onClick={() => modifyChoices(userId, "ADD_TO_LIKED_USERS")}
   >
-    <img src="../images/app/like.png" alt="like" />
+    <img src="images/app/like.png" alt="like" />
   </button>
 );
 export default Like;

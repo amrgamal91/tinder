@@ -5,7 +5,7 @@ const Dislike = ({ userId, modifyChoices }) => (
     type="button"
     onClick={() => modifyChoices(userId, "ADD_TO_DISLIKED_USERS")}
   >
-    <img src="/images/app/dislike.png" alt="dislike" />
+    <img src="images/app/dislike.png" alt="dislike" />
   </button>
 );
 

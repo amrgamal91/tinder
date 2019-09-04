@@ -8,7 +8,7 @@ const Person = ({ person, modifyChoices }) => {
     <>
       <div className="person">
         <div className="person-photo">
-          <img src={`/images/users/${image}`} alt={name}></img>
+          <img src={`images/users/${image}`} alt={name}></img>
         </div>
         <div className="person-description">
           <p className="person-name-age">

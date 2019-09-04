@@ -5,7 +5,7 @@ const Header = () => (
   <header>
     <div className="fl">
       <button type="button">
-        <img src="/images/app/user.png" alt="User Settings"></img>
+        <img src="images/app/user.png" alt="User Settings"></img>
       </button>
     </div>
 
@@ -15,7 +15,7 @@ const Header = () => (
 
     <div className="fl">
       <button type="button">
-        <img src="/images/app/messages.png" alt="View Messages"></img>
+        <img src="images/app/messages.png" alt="View Messages"></img>
       </button>
     </div>
   </header>
